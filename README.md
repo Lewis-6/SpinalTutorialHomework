@@ -47,26 +47,3 @@ sbt "runMain projectname.MyTopLevelSim"
 
 仿真波形会生成在 `simWorkspace/` 下，可以用 VaporView 或 GTKWave 查看。
 
-## 查看提交
-
-查看每次作业提交：
-
-```powershell
-git log --oneline --reverse
-```
-
-查看某次课的代码变化，例如 2026-04-03：
-
-```powershell
-git show ppt3-2026-04-03
-```
-
-本仓库也保留了日期标签：
-
-```text
-ppt2-2026-03-13
-ppt3-2026-03-20
-ppt3-2026-04-03
-ppt4-2026-04-10
-ppt4-2026-04-17
-```
